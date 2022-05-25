@@ -1,0 +1,39 @@
+{
+  "name": "http-server-env",
+  "author": "James Grams <james@game103.net>",
+  "version": "1.0.0",
+  "description": "Serve static webpages with environment variables",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "html-encoding-sniffer": "^3.0.0",
+    "http-server": "14.1.0",
+    "mime": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "http-server-env": "index.js"
+  },
+  "keywords": [
+    "environment",
+    "env",
+    "http-server",
+    "static",
+    "serverless"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesgrams/http-server-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamesgrams/http-server-env/issues"
+  },
+  "homepage": "https://github.com/jamesgrams/http-server-env#readme"
+}
